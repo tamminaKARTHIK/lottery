@@ -1,0 +1,17 @@
+[package]
+name = "lottery"
+version = "1.0.3"
+authors = []
+
+[addresses]
+lottery_address = "0xac7af3e3b2ccb64415add00cd6184e1f1b98f2df94a6328c21da90b12498b684"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
